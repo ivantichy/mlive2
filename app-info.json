@@ -1,0 +1,59 @@
+{
+"displayName": "Marvin Live",
+"address": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/login/team1",
+"identities": [
+{
+"category": "application",
+"type": "webapp"
+},
+{
+"category": "group",
+"type": "design"
+},
+{
+"category": "product",
+"type": "marvin-live"
+},
+{
+"category": "vendor",
+"type": "chemaxon"
+}
+],
+"features": [
+{
+"namespace": "synergy/app-info",
+"attributes": {
+"url": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/synergy/app-info/team1"
+}
+},
+{
+"namespace": "synergy/health",
+"attributes": {
+"url": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/synergy/health"
+}
+},
+{
+"namespace": "synergy/icon",
+"attributes": {
+"url": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/css/icon_black.svg"
+}
+},
+{
+"namespace": "synergy/logout",
+"attributes": {
+"url": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/logout"
+}
+},
+{
+"namespace": "synergy/deeplinks",
+"attributes": {
+"links": [
+{
+"name": "Create new hypothesis",
+"url": "http://synergy-mlive-924182376.eu-west-1.elb.amazonaws.com:8888/new/hypothesis"
+}
+]
+}
+}
+]
+}
